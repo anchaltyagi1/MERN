@@ -1,0 +1,100 @@
+  *{
+    padding: 0;
+    margin: 0;
+    /* border: border-box; */
+}  
+
+/* body{
+    height: 100%;
+    background-color: aqua;
+} */
+
+body{
+    height: 100vh;
+    width: 100vh;
+    padding: 10px 32px;
+}
+.parent{
+
+/* font-size: 32px; */
+/* font-size: 5em; */
+ /*(em is relative to  immediate parent for font size but not for other properties  ,for other properties will relative to the current size of the child) */
+ /* font-size: 2rem; */
+ /* This unit is relative gto the root element(like html by default 16px) */
+ /* height: 100%; */
+
+}
+
+.child{
+  /* font-size: 16px; */
+  /* font-size: 2rem;
+  width: 2rem; */
+  height: 100%;
+}
+
+.btn{
+    display: block;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 10px auto;
+    font-size: 2em;
+    width: 5em;
+}
+.btn.small{
+    /* display: block;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px auto;
+    font-size: small;
+    width: 100px; */
+    font-size: 1em;
+}
+/* psuedoclass(:) */
+
+
+
+.parent{
+/*   
+    ul:first-child{
+        background-color: brown;
+    }
+    ul:nth-child(3){
+        background-color: deeppink;
+
+    }
+    ul:last-child{
+        background-color: chartreuse;
+    }
+    ol{
+      background-color: blueviolet;
+    }
+    ul:last-child
+    {
+        li:nth-child(2){
+            background-color: crimson;
+            width: fit-content;
+            
+        } */
+    /* } */
+
+
+    ul:last-of-type
+    {
+        li:nth-of-type(2){
+            background-color: aqua;
+        }
+    }
+    }
+
+    /* .parent ul{
+        background-color: darkmagenta;
+    } */
+    .parent>ul
+    {
+        background-color: navy;
+    }
+    .parent+ul{
+        background-color: firebrick;
+    }
+
+

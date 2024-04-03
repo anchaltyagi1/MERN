@@ -1,0 +1,48 @@
+.parent1{
+    background-color: bisque;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+ 
+  /* flex-basis: 50px;
+  flex-shrink: 0; */
+
+/* .child.searchbox{
+    flex-grow: 3;
+    flex-shrink: 1;
+    justify-content: flex-end;
+
+}
+.like{
+    flex-grow: 1;
+} */
+.child
+{
+    background-color: aqua;
+    border: 1px solid black;
+
+}
+.parent2{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.parent3{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.parent4{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
