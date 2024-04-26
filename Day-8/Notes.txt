@@ -1,0 +1,20 @@
+_______Server Side Programming______
+1-npm init(package.json)
+2-npm i nodemon(dependency of nodemon(node_modules))
+3-dummy Json(website)----copy the example --- go to inspect and then go to console and paste it then remove the /1
+and then paste the object from console to the file data.json
+4-to run js file in node ----node filename.js
+5- to run file in nodemon----- npx nodemon <filename>
+
+//rest api(representational )
+6- use status codes(404,405 etc..)correctly
+7-everything in json
+8-use restapi methods correctly.
+9- Be stateless.
+
+
+//Express
+(npm js--- to install)
+Express.js, or Express, is a free and open-source web application framework that's used to build RESTful APIs with Node.js.
+
+----postman installation---
